@@ -25,7 +25,7 @@ const connection = async () => {
   try {
     return await mongoose.connect(
       // "mongodb://127.0.0.1:27017/ISSUE_TRACKER_DB   "
-      "mongodb+srv://sparsh7037:PsTxkrlQatmxNcMN@cluster0.de33ehd.mongodb.net/Hospital_api?retryWrites=true&w=majority"
+      "mongodb+srv://sparsh7037:PsTxkrlQatmxNcMN@cluster0.de33ehd.mongodb.net/issue-tracker-db?retryWrites=true&w=majority"
     );
   } catch (err) {
     console.log(err);
